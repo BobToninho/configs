@@ -1,0 +1,86 @@
+{
+	"terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+	"terminal.integrated.cwd": "C:\\Users\\Robi\\Dev\\repos\\rexclassic\\wp-content\\themes\\rexpansive-classic",
+	"window.zoomLevel": 0,
+	"gitlens.hovers.currentLine.over": "line",
+	"workbench.iconTheme": "vscode-icons",
+	"editor.tabSize": 2,
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	"editor.minimap.enabled": false,
+	"workbench.editor.showTabs": false,
+	"task.problemMatchers.neverPrompt": {
+		"gulp": true,
+		"npm": true
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"gitlens.views.repositories.enabled": false,
+	"gitlens.views.fileHistory.enabled": false,
+	"gitlens.views.lineHistory.enabled": false,
+	"gitlens.views.search.enabled": false,
+	"gitlens.views.compare.enabled": false,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontWeight": "300",
+	// Removes styles from comments
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["comment", "punctuation.definition.comment" /* , "variable.language" */],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"gitlens.codeLens.enabled": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.wordWrap": "on",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": false,
+	"editor.formatOnType": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.insertSpaces": false,
+	"standard.run": "onSave",
+	"editor.detectIndentation": false,
+	"prettier.printWidth": 120,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"workbench.colorTheme": "Palenight Theme",
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.snippetSuggestions": "top",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"search.exclude": {
+		"admin/js/builderlive-admin.js": true,
+		"admin/js/live-admin.js": true,
+		"public/js/builderlive-editor.js": true,
+		"public/js/builderlive-public.js": true
+	},
+	"editor.fontSize": 18,
+	"html.format.indentInnerHtml": true,
+	"html.format.maxPreserveNewLines": 1,
+	"highlight-matching-tag.highlightFromContent": true,
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"name": {
+				"surround  ": "yellow",
+				"underline": "yellow"
+			}
+		}
+	},
+	"workbench.sideBar.location": "right"
+}

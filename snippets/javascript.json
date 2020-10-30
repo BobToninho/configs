@@ -1,0 +1,66 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": ["console.log( $0 );"],
+		"description": "Toni Log output to console"
+	},
+	"For loop": {
+		"prefix": "for",
+		"body": ["for ($0 = 0; $0 < CHANGE_ME; $0++) {", "  ", "}"],
+		"description": "Toni For loop"
+	},
+	"If condition": {
+		"prefix": "if",
+		"body": ["if ($0) {", "  ", "}"],
+		"description": "Toni If condition"
+	},
+	"If else condition": {
+		"prefix": "ifelse",
+		"body": ["if ($0) {", "  ", "} else {", "  ", "}"],
+		"description": "Toni If else condition"
+	},
+	"IIFE": {
+		"prefix": "iife",
+		"body": [";(function() {", "  $0", "}());"],
+		"description": "Toni IIFE"
+	},
+	"factory": {
+		"prefix": "factory",
+		"body": [
+			";(function (window, factory) {",
+			"  'use strict';",
+			"  window.$1 = factory(window);",
+			"  })('undefined' !== typeof window ? window : this, function () {",
+			"function $1(params) {}",
+			"",
+			"return $1;",
+			"});"
+		],
+		"description": "Toni factory"
+	},
+	"vue-store": {
+		"prefix": "vstore",
+		"body": [
+			"const state = {}",
+			"",
+			"const actions = {}",
+			"",
+			"const getters = {}",
+			"",
+			"const mutations = {}",
+			"",
+			"export default {",
+			"state,",
+			"getters,",
+			"actions,",
+			"mutations",
+			"}"
+		],
+		"description": "Toni vue store scaffold"
+	}
+}
