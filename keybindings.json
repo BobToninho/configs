@@ -215,7 +215,7 @@
 		"command": "-editor.togglequotes"
 	},
 	// ! Will remove
-	// Used to get used to keybindings
+	// Used to get used to new keybindings
 	{
 		"key": "ctrl+b",
 		"command": "extension.keyboard_shortcut_eval",
