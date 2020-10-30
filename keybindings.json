@@ -1,0 +1,239 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": ".",
+		"command": ""
+	},
+
+	/*
+		TIPS:
+
+		- Keybindings are evaluated from bottom to top
+		- CTRL+P twice to go back to previous file (even if closed)
+	*/
+
+	/* Essentials */
+	{
+		"key": "ctrl+shift+backspace",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+numpad_divide",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+numpad_divide",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "workbench.action.terminal.kill"
+	},
+	// ! ALT+down & ALT+up
+	// {
+	// 	"key": "ctrl+shift+down",
+	// 	"command": "editor.action.moveLinesDownAction",
+	// 	"when": "editorTextFocus && !editorReadonly"
+	// },
+	// {
+	// 	"key": "ctrl+shift+up",
+	// 	"command": "editor.action.moveLinesUpAction",
+	// 	"when": "editorTextFocus && !editorReadonly"
+	// },
+
+	/* Tasks */
+	{
+		"key": "ctrl+r ctrl+r",
+		"command": "workbench.action.tasks.runTask"
+	},
+	{
+		// * Workaround
+		"key": "ctrl+r ctrl+d",
+		"command": "workbench.action.tasks.test"
+	},
+	{
+		"key": "ctrl+r ctrl+b",
+		"command": "workbench.action.tasks.build"
+	},
+
+	/* Activity Bar */
+	{
+		"key": "ctrl+k ctrl+e",
+		"command": "workbench.view.explorer"
+	},
+	{
+		"key": "ctrl+k ctrl+g",
+		"command": "workbench.view.scm"
+	},
+	{
+		"key": "ctrl+k ctrl+d",
+		"command": "workbench.view.debug"
+	},
+	{
+		"key": "ctrl+k ctrl+x",
+		"command": "workbench.extensions.action.showInstalledExtensions"
+	},
+	{
+		"key": "ctrl+k ctrl+p",
+		"command": "workbench.view.extension.project-manager"
+	},
+	{
+		"key": "ctrl+k ctrl+b",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+
+	/* Typography */
+	{
+		"key": "ctrl+k ctrl+l",
+		"command": "editor.action.transformToLowercase"
+	},
+	{
+		"key": "ctrl+k ctrl+u",
+		"command": "editor.action.transformToUppercase"
+	},
+	{
+		"key": "ctrl+k ctrl+t",
+		"command": "editor.action.transformToTitlecase"
+	},
+
+	/* CTRL+K Others */
+	{
+		"key": "ctrl+k ctrl+f",
+		"command": "editor.action.formatSelection",
+		"when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+k ctrl+s",
+		"command": "workbench.action.files.saveWithoutFormatting"
+	},
+
+	/* Multi-cursor */
+	{
+		"key": "ctrl+backspace",
+		"command": "editor.action.moveSelectionToPreviousFindMatch",
+		"when": "editorFocus && editorHasMultipleSelections"
+	},
+	{
+		"key": "ctrl+k ctrl+d",
+		"command": "editor.action.moveSelectionToNextFindMatch",
+		"when": "editorFocus && editorHasMultipleSelections"
+	},
+	{
+		"key": "ctrl+right",
+		"command": "editor.action.insertCursorAtEndOfEachLineSelected",
+		"when": "editorFocus && editorHasSelection"
+	},
+
+	/* File Explorer */
+	// ! Duplicates the current open file, not the highlighted one
+	// {
+	// 	"key": "ctrl+d",
+	// 	"command": "duplicate.execute",
+	// 	"when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+	// },
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "shift+ctrl+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "workbench.files.action.refreshFilesExplorer",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+
+	/* Emmet */
+	{
+		"key": "ctrl+m ctrl+i",
+		"command": "editor.emmet.action.balanceIn",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+m ctrl+o",
+		"command": "editor.emmet.action.balanceOut",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+m ctrl+w",
+		"command": "editor.emmet.action.wrapWithAbbreviation",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+m ctrl+backspace",
+		"command": "editor.emmet.action.removeTag",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+m ctrl+m",
+		"command": "editor.emmet.action.matchTag",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+m ctrl+e",
+		"command": "editor.action.smartSelect.expand",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+m ctrl+r",
+		"command": "editor.emmet.action.updateTag",
+		"when": "editorTextFocus"
+	},
+
+	/* Terminal */
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.terminal.focus",
+		"when": "!terminalFocus"
+	},
+
+	/* DevTools */
+	{
+		"key": "ctrl+shift+i",
+		"command": "workbench.action.toggleDevTools"
+	},
+
+	/* Extensions */
+	{
+		"key": "ctrl+oem_4",
+		"command": "editor.togglequotes"
+	},
+	{
+		"key": "ctrl+oem_7",
+		"command": "-editor.togglequotes"
+	},
+	// ! Will remove
+	// Used to get used to keybindings
+	{
+		"key": "ctrl+b",
+		"command": "extension.keyboard_shortcut_eval",
+		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+B!', { modal: true });" }
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "extension.keyboard_shortcut_eval",
+		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+E!', { modal: true });" }
+	},
+	{
+		"key": "ctrl+shift+g",
+		"command": "extension.keyboard_shortcut_eval",
+		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+G!', { modal: true });" }
+	},
+	{
+		"key": "ctrl+shift+x",
+		"command": "extension.keyboard_shortcut_eval",
+		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+X!', { modal: true });" }
+	}
+]

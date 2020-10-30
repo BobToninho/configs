@@ -1,0 +1,274 @@
+{
+	/* 💤 Silence the noise */
+	"workbench.activityBar.visible": false,
+	"workbench.editor.showTabs": false,
+	"workbench.statusBar.visible": false,
+	"workbench.sideBar.location": "right",
+	"editor.minimap.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderWhitespace": "selection",
+	"editor.occurrencesHighlight": false,
+	"editor.lineNumbers": "interval",
+	"breadcrumbs.enabled": false,
+	"gitlens.menus": {
+		"editorGroup": {
+			"blame": false,
+			"compare": false
+		}
+	},
+	// Undocumented but works
+	// https://stackoverflow.com/questions/44912058/is-there-a-way-to-make-vscode-line-number-field-smaller-width/44920117#answer-58114056
+	"editor.lineDecorationsWidth": 0,
+
+	"editor.renderIndentGuides": true,
+
+	/* 💚 Better life */
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.renderLineHighlight": "all",
+	"files.trimTrailingWhitespace": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.padding.top": 15,
+	"search.showLineNumbers": true,
+
+	/* Typography */
+	"editor.fontFamily": "Fira Code, Operator Mono",
+	"editor.fontWeight": "300",
+	"editor.fontSize": 18,
+	"editor.lineHeight": 35,
+	"editor.letterSpacing": 0.5,
+
+	/* Workbench */
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "newUntitledFile",
+
+	/* Tabs/Spaces */
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+
+	/* Word wrap */
+	"editor.wordWrap": "bounded",
+	"editor.wordWrapColumn": 120,
+
+	/* Suggestions */
+	"editor.snippetSuggestions": "top",
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+
+	/* Cursor/Multi-cursor */
+	"editor.cursorWidth": 3,
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "phase",
+	"editor.multiCursorModifier": "ctrlCmd",
+
+	/* Folding */
+	"editor.folding": true,
+
+	/* Terminal */
+	"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+	"terminal.integrated.fontFamily": "CaskaydiaCove NF",
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontWeight": "100",
+
+	/* Git - Source Control */
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"git.inputValidation": "off",
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.views.repositories.enabled": false,
+	"gitlens.views.fileHistory.enabled": false,
+	"gitlens.views.lineHistory.enabled": false,
+	"gitlens.views.compare.enabled": false,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.keymap": "none",
+	// "gitlens.views.search.keybenabled": false, // Option not found
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.renderSideBySide": true,
+	"scm.alwaysShowRepositories": true,
+
+	/* Emmet */
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+
+	/* Tasks */
+	"task.problemMatchers.neverPrompt": {
+		"gulp": true,
+		"npm": true
+	},
+
+	/* Window */
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+
+	/* Languages */
+
+	// TypeScript
+	"typescript.suggest.paths": true,
+
+	// Python
+	"python.languageServer": "Microsoft",
+
+	// PHP
+	"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+	"intelephense.format.braces": "k&r",
+
+	/* Formatting */
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+
+	/* Formatters */
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"html.format.indentInnerHtml": true,
+	"html.format.maxPreserveNewLines": 1,
+
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"vetur.format.defaultFormatter.html": "prettier",
+
+	"[markdown]": {
+		"editor.wordWrapColumn": 1000,
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+
+	"[python]": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true
+	},
+
+	/* Extensions */
+
+	// Prettier
+	"prettier.configPath": "C:\\Users\\Roberto\\Dev\\.prettierrc",
+	"prettier.trailingComma": "none",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+
+	// VS IntelliCode
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+	// Project Manager
+	"projectManager.git.baseFolders": ["C:\\Users\\Roberto\\Dev"],
+
+	// Live Server
+	"liveServer.settings.donotVerifyTags": true,
+
+	// Intelephense
+	"intelephense.format.enable": false,
+	"intelephense.stubs": [
+		"apache",
+		"bcmath",
+		"bz2",
+		"calendar",
+		"com_dotnet",
+		"Core",
+		"ctype",
+		"curl",
+		"date",
+		"dba",
+		"dom",
+		"enchant",
+		"exif",
+		"FFI",
+		"fileinfo",
+		"filter",
+		"fpm",
+		"ftp",
+		"gd",
+		"gettext",
+		"gmp",
+		"hash",
+		"iconv",
+		"imap",
+		"intl",
+		"json",
+		"ldap",
+		"libxml",
+		"mbstring",
+		"meta",
+		"mysqli",
+		"oci8",
+		"odbc",
+		"openssl",
+		"pcntl",
+		"pcre",
+		"PDO",
+		"pdo_ibm",
+		"pdo_mysql",
+		"pdo_pgsql",
+		"pdo_sqlite",
+		"pgsql",
+		"Phar",
+		"posix",
+		"pspell",
+		"readline",
+		"Reflection",
+		"session",
+		"shmop",
+		"SimpleXML",
+		"snmp",
+		"soap",
+		"sockets",
+		"sodium",
+		"SPL",
+		"sqlite3",
+		"standard",
+		"superglobals",
+		"sysvmsg",
+		"sysvsem",
+		"sysvshm",
+		"tidy",
+		"tokenizer",
+		"xml",
+		"xmlreader",
+		"xmlrpc",
+		"xmlwriter",
+		"xsl",
+		"Zend OPcache",
+		"zip",
+		"zlib",
+		"wordpress"
+	],
+
+	/* Fira Code italic fix */
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["comment", "punctuation.definition.comment" /* , "variable.language" */],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+
+	/* Theme */
+	"workbench.colorTheme": "Palenight Theme",
+	"workbench.colorCustomizations": {
+		"editorIndentGuide.activeBackground": "#c4c4c4a6",
+		"list.focusBackground": "#000"
+	},
+
+	/* Not found */
+	"standard.run": "onSave"
+}
