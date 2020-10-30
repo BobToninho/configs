@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
+// v 1.9.6
 module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
@@ -28,10 +29,7 @@ module.exports = {
 					700: 'hsl(0, 0%, 70%)',
 					800: 'hsl(0, 0%, 80%)',
 					900: 'hsl(0, 0%, 90%)'
-				},
-				primary: 'hsl(210, 100%, 52%)',
-				secondary: 'hsl(258, 94%, 4%)',
-				foreground: 'hsl(0, 0%, 85%)'
+				}
 			},
 			fontFamily: {
 				sans: ['Heebo', ...defaultTheme.fontFamily.sans]
