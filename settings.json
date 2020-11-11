@@ -30,6 +30,7 @@
 	"explorer.confirmDragAndDrop": false,
 	"editor.padding.top": 15,
 	"search.showLineNumbers": true,
+	"javascript.implicitProjectConfig.checkJs": true,
 
 	/* Typography */
 	"editor.fontFamily": "Fira Code, Operator Mono",
@@ -50,9 +51,6 @@
 	/* Word wrap */
 	"editor.wordWrap": "bounded",
 	"editor.wordWrapColumn": 120,
-
-	/* Suggestions */
-	"editor.snippetSuggestions": "top",
 	"editor.suggestSelection": "recentlyUsedByPrefix",
 
 	/* Cursor/Multi-cursor */
@@ -81,6 +79,8 @@
 	"gitlens.views.compare.enabled": false,
 	"gitlens.codeLens.enabled": false,
 	"gitlens.keymap": "none",
+	"gitlens.statusBar.enabled": false,
+	"gitlens.mode.statusBar.enabled": false,
 	// "gitlens.views.search.keybenabled": false, // Option not found
 	"diffEditor.ignoreTrimWhitespace": false,
 	"diffEditor.renderSideBySide": true,
@@ -103,6 +103,9 @@
 
 	// TypeScript
 	"typescript.suggest.paths": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 
 	// Python
 	"python.languageServer": "Microsoft",
@@ -158,11 +161,14 @@
 	/* Extensions */
 
 	// Prettier
-	"prettier.configPath": "C:\\Users\\Roberto\\Dev\\.prettierrc",
+	"prettier.configPath": "C:\\Users\\Roberto\\Dev\\configs\\.prettierrc",
 	"prettier.trailingComma": "none",
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"prettier.printWidth": 120,
+
+	// ESLint
+	"eslint.validate": ["javascript", "javascriptreact", "vue"],
 
 	// VS IntelliCode
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",

@@ -69,6 +69,10 @@
 		"command": "workbench.view.scm"
 	},
 	{
+		"key": "ctrl+k ctrl+f",
+		"command": "workbench.view.search"
+	},
+	{
 		"key": "ctrl+k ctrl+d",
 		"command": "workbench.view.debug"
 	},
@@ -83,6 +87,10 @@
 	{
 		"key": "ctrl+k ctrl+b",
 		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+k ctrl+c",
+		"command": "sortConcentrically.sortConcentrically"
 	},
 
 	/* Typography */
@@ -213,27 +221,27 @@
 	{
 		"key": "ctrl+oem_7",
 		"command": "-editor.togglequotes"
-	},
-	// ! Will remove
-	// Used to get used to new keybindings
-	{
-		"key": "ctrl+b",
-		"command": "extension.keyboard_shortcut_eval",
-		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+B!', { modal: true });" }
-	},
-	{
-		"key": "ctrl+shift+e",
-		"command": "extension.keyboard_shortcut_eval",
-		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+E!', { modal: true });" }
-	},
-	{
-		"key": "ctrl+shift+g",
-		"command": "extension.keyboard_shortcut_eval",
-		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+G!', { modal: true });" }
-	},
-	{
-		"key": "ctrl+shift+x",
-		"command": "extension.keyboard_shortcut_eval",
-		"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+X!', { modal: true });" }
 	}
+	// ! Will remove
+	// Used to get used to keybindings
+	// {
+	// 	"key": "ctrl+b",
+	// 	"command": "extension.keyboard_shortcut_eval",
+	// 	"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+B!', { modal: true });" }
+	// },
+	// {
+	// 	"key": "ctrl+shift+e",
+	// 	"command": "extension.keyboard_shortcut_eval",
+	// 	"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+E!', { modal: true });" }
+	// },
+	// {
+	// 	"key": "ctrl+shift+g",
+	// 	"command": "extension.keyboard_shortcut_eval",
+	// 	"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+G!', { modal: true });" }
+	// },
+	// {
+	// 	"key": "ctrl+shift+x",
+	// 	"command": "extension.keyboard_shortcut_eval",
+	// 	"args": { "javascript": "vscode.window.showErrorMessage('Use CTRL+K CTRL+X!', { modal: true });" }
+	// }
 ]
