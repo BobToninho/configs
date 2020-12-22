@@ -39,4 +39,11 @@ module.exports = {
 		parser: 'babel-eslint'
 	},
 	extends: ['plugin:vue/base', 'plugin:vue/recommended', 'eslint:recommended', 'plugin:vue/essential', '@vue/prettier']
+	/* extends: [
+		'prettier',
+		'prettier/vue',
+		'plugin:prettier/recommended',
+		'plugin:vue/essential'
+		// '@vue/typescript'
+	] */
 }
