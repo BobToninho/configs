@@ -13,3 +13,5 @@ rules:
       argsIgnorePattern: ^_
   no-unused-vars: off
   no-console: off
+
+# -D -E @nuxtjs/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint  eslint-config-prettier eslint-plugin-prettier prettier typescript
