@@ -1,17 +1,10 @@
 ---
 extends:
-  - "@nuxtjs"
+  - "@nuxtjs/eslint-config-typescript"
   - plugin:prettier/recommended
-plugins:
-  - "@typescript-eslint"
-parserOptions:
-  parser: "@typescript-eslint/parser"
 rules:
-  "@typescript-eslint/no-unused-vars":
-    - error
-    - args: all
-      argsIgnorePattern: ^_
-  no-unused-vars: off
-  no-console: off
+#  no-console: off
+  no-tabs: off
 
-# -D -E @nuxtjs/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint  eslint-config-prettier eslint-plugin-prettier prettier typescript
+
+# -D -E @nuxtjs/eslint-config-typescript eslint-config-prettier eslint-plugin-prettier prettier eslint
